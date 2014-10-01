@@ -1,0 +1,11 @@
+ .container {
+  	text-align:center;
+	width:50%;
+	min-width:600px;
+	margin-bottom:50px;
+ }	
+ .comic {
+	display:block;
+	margin:auto;
+	width:75%;
+ }
