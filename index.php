@@ -17,7 +17,7 @@
 <div class="container">
 <h1>xkcd Password Generator</h1>
 
-<p class='password'>password</p>
+<p class='password'><?=$pass;?></p>
 
 <form method='GET' action='index.php'>
 <p class='options'>
