@@ -15,6 +15,24 @@
 <div class="container">
 <h1>xkcd Password Generator</h1>
 
+<p class='password'>password</p>
+
+<form>
+<p class='options'>
+
+<label for='num_words'># of Words (Max 9)</label>
+<input maxlength=1 type='text' name='num_words' id='num_words' value='4'>
+<br>
+<input type='checkbox' name='include_number' id='include_number' >
+<label for='include_number'>Include a number</label>
+<br>
+<input type='checkbox' name='include_symbol' id='include_symbol' >
+<label for='include_symbol'>Include a symbol</label>
+</p>
+
+<input type='submit' value='Generate Password'>
+</form>
+
 <a href='http://xkcd.com/936/'>xkcd password strength</a><br><br>
 
 <a ref='http://xkcd.com/936'><img class=comic src='http://imgs.xkcd.com/comics/password_strength.png'></a>
