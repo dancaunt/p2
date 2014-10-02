@@ -12,3 +12,8 @@
  #num_words {
 	width:30px;
  }
+ .password {
+	font-size:3rem;
+	background-color:#eee;
+	font-weight:700;
+ }
