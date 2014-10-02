@@ -23,7 +23,7 @@
 <p class='options'>
 
 <label for='num_words'># of Words (Max 9)</label>
-<input maxlength=1 type='text' name='num_words' id='num_words' value='4'>
+<input maxlength=1 type='text' name='num_words' id='num_words' >
 <br>
 <input type='checkbox' name='include_number' id='include_number' >
 <label for='include_number'>Include a number</label>
