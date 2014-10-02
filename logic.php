@@ -18,4 +18,9 @@ for ($i=0; $i<$num_words-1; $i++) {
 }
 $pass = $pass.$word[1][rand(0,max(array_map('count', $word))-1)];
 //print_r($pass);
+
+if($_GET["include_symbol"])
+	$pass = $pass.chr(rand(33,47));
+if($_GET["include_number"])
+	$pass = $pass.rand(0,9);
 ?>
